@@ -1,0 +1,74 @@
+/* =========================================================================
+ * BASE
+ * ========================================================================= */
+
+/* HTML
+ * ------------------------------------------------------------------------- */
+
+html {
+  height: 100%;
+}
+
+/* BODY
+ * ------------------------------------------------------------------------- */
+
+body {
+  display: flex;
+
+  margin: 0;
+
+  min-width: var(--dom--min-width);
+  min-height: 100%;
+
+  flex-direction: column;
+}
+
+/* =========================================================================
+ * MY CUSTOM STYLE
+ * ========================================================================= */
+
+.navbar {
+  background: none;
+}
+
+.body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.img-back {
+  min-height: 40vh;
+  min-width: 100%;
+  position: absolute;
+}
+
+.b-white {
+  background-color: white;
+}
+
+main {
+  background-color: rgb(215, 215, 215);
+  padding-bottom: 5%;
+}
+
+footer {
+  background-color: rgb(215, 215, 215);
+  padding-bottom: 3%;
+}
+
+footer a {
+  color: black;
+}
+
+footer p {
+  color: orangered;
+}
+
+.p-img {
+  padding-left: 0%;
+}
+
+.carousel img {
+  max-height: 40vh;
+  margin: 0 auto;
+}

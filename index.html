@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!---------- METADATA ---------->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Évaluation Front-end Finale - Erwan 2022</title>
+
+  <!---------- FAVICON ---------->
+  <link rel="icon" type="image/png" href="./images/ui/favicon.png" />
+
+  <!---------- STYLES ---------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+  <!----- VENDOR: RESET CSS ----->
+  <link rel="stylesheet" href="./styles/reset.css" />
+
+  <!----- APP ----->
+  <link rel="stylesheet" href="./styles/dimensions.css" />
+  <link rel="stylesheet" href="./styles/themes.css" />
+  <link rel="stylesheet" href="./styles/lib.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+
+  <!-- BOOTSTRAP -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"
+    defer></script>
+</head>
+
+<body class="body">
+  <div class="img-back"
+    style="background-image: url('./images/ui/background.jpg'); min-height: 75%; position: absolute;z-index:-1;">
+  </div>
+  <div class="container">
+    <header class="header">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/ui/brand-logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fw-bolder" aria-current="page" href="#"> ACCUEIL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder" href="#">NOS VEHICULES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder" href="#">NOS CONCESSIONS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR -->
+      <!-- CAROUSEL -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner-slider/1.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-slider/2.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner-slider/3.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="slider"></div>
+      <!-- CAROUSEL -->
+    </header>
+
+    <main>
+      <div class="row justify-content-center">
+        <h1 class="col-md-11 m-3 b-white">NOS VEHICULES</h1>
+      </div>
+
+      <div class="row">
+        <!-- VEHICULE 1 -->
+        <div class="col-md-12 my-2">
+          <div class="row justify-content-center">
+            <div class="col-md-11">
+              <div class="row b-white">
+                <img src="images/products/1.jpg" style="padding-left: 0%;" alt="" class="col-md-3">
+                <div class="col-md-9">
+                  <div class="row" style="height: 100%;">
+                    <h3 class="col-md-12">Lorem ipsum dolor sit.</h3>
+                    <p class="col-md-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reiciendis magnam
+                      tempora omnis nihil. Deleniti repudiandae aliquam nisi? Vel quam nesciunt voluptatum nam eveniet
+                      rem.</p>
+                    <h5 class="offset-md-6 col-md-2 text-black-50 text-decoration-line-through align-self-end">91 000 €
+                    </h5>
+                    <h4 class="col-md-2 align-self-end">79 000 €</h4>
+                    <button type="button" class="btn btn-danger btn col-md-2 rounded-0 align-self-end"><i
+                        class="fa-solid fa-plus"></i>
+                      COMPARER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VEHICULE 2 -->
+        <div class="col-md-12 my-2">
+          <div class="row justify-content-center">
+            <div class="col-md-11">
+              <div class="row b-white">
+                <img src="images/products/2.jpg" style="padding-left: 0%;" alt="" class="col-md-3">
+                <div class="col-md-9">
+                  <div class="row" style="height: 100%;">
+                    <h3 class="col-md-12">Lorem ipsum dolor sit.</h3>
+                    <p class="col-md-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reiciendis magnam
+                      tempora omnis nihil. Deleniti repudiandae aliquam nisi? Vel quam nesciunt voluptatum nam eveniet
+                      rem.</p>
+                    <h4 class="offset-md-8 col-md-2 align-self-end">71 000 €</h4>
+                    <button type="button" class="btn btn-danger col-md-2 rounded-0 align-self-end"><i
+                        class="fa-solid fa-plus"></i>
+                      COMPARER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VEHICULE 3 -->
+        <div class="col-md-12 my-2">
+          <div class="row justify-content-center">
+            <div class="col-md-11">
+              <div class="row b-white">
+                <img src="images/products/3.jpg" style="padding-left: 0%;" alt="" class="col-md-3">
+                <div class="col-md-9">
+                  <div class="row" style="height: 100%;">
+                    <h3 class="col-md-12">Lorem ipsum dolor sit.</h3>
+                    <p class="col-md-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reiciendis magnam
+                      tempora omnis nihil. Deleniti repudiandae aliquam nisi? Vel quam nesciunt voluptatum nam eveniet
+                      rem.</p>
+                    <h4 class="offset-md-8 col-md-2 align-self-end">79 000 €</h4>
+                    <button type="button" class="btn btn-danger col-md-2 rounded-0 align-self-end"><i
+                        class="fa-solid fa-plus"></i>
+                      COMPARER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VEHICULE 4 -->
+        <div class="col-md-12 my-2">
+          <div class="row justify-content-center">
+            <div class="col-md-11">
+              <div class="row b-white">
+                <img src="images/products/4.jpg" style="padding-left: 0%;" alt="" class="col-md-3">
+                <div class="col-md-9">
+                  <div class="row" style="height: 100%;">
+                    <h3 class="col-md-12">Lorem ipsum dolor sit.</h3>
+                    <p class="col-md-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reiciendis magnam
+                      tempora omnis nihil. Deleniti repudiandae aliquam nisi? Vel quam nesciunt voluptatum nam eveniet
+                      rem.</p>
+                    <h5 class="offset-md-6 col-md-2 text-black-50 text-decoration-line-through align-self-end">103 000 €
+                    </h5>
+                    <h4 class="col-md-2 align-self-end">79 000 €</h4>
+                    <button type="button" class="btn btn-danger col-md-2 rounded-0 align-self-end"><i
+                        class="fa-solid fa-plus"></i>
+                      COMPARER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VEHICULE 5 -->
+        <div class="col-md-12 my-2">
+          <div class="row justify-content-center">
+            <div class="col-md-11">
+              <div class="row b-white">
+                <img src="images/products/5.jpg" style="padding-left: 0%;" alt="" class="col-md-3">
+                <div class="col-md-9">
+                  <div class="row" style="height: 100%;">
+                    <h3 class="col-md-12">Lorem ipsum dolor sit.</h3>
+                    <p class="col-md-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reiciendis magnam
+                      tempora omnis nihil. Deleniti repudiandae aliquam nisi? Vel quam nesciunt voluptatum nam eveniet
+                      rem.</p>
+                    <h4 class="offset-md-8 col-md-2 align-self-end">50 995 €</h4>
+                    <button type="button" class="btn btn-danger col-md-2 rounded-0 align-self-end"><i
+                        class="fa-solid fa-plus"></i>
+                      COMPARER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VEHICULE 6 -->
+        <div class="col-md-12 my-2">
+          <div class="row justify-content-center">
+            <div class="col-md-11">
+              <div class="row b-white">
+                <img src="images/products/6.jpg" style="padding-left: 0%;" alt="" class="col-md-3">
+                <div class="col-md-9">
+                  <div class="row" style="height: 100%;">
+                    <h3 class="col-md-12">Lorem ipsum dolor sit.</h3>
+                    <p class="col-md-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reiciendis magnam
+                      tempora omnis nihil. Deleniti repudiandae aliquam nisi? Vel quam nesciunt voluptatum nam eveniet
+                      rem.</p>
+                    <h5 class="offset-md-6 col-md-2 text-black-50 text-decoration-line-through align-self-end">81 500 €
+                    </h5>
+                    <h4 class="col-md-2 align-self-end">77 999 €</h4>
+                    <button type="button" class="btn btn-danger col-md-2 rounded-0 align-self-end"><i
+                        class="fa-solid fa-plus"></i>
+                      COMPARER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="row" style="height: 100%;">
+        <div class="col-md-4 text-center align-middle">
+          <i class="fa fa-snapchat mx-2" style="font-size:48px;color:orangered"></i>
+          <i class="fa fa-reddit mx-2" style="font-size:48px;color:orangered"></i>
+          <i class="fa fa-telegram mx-2" style="font-size:48px;color:orangered"></i>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="#" class="px-2 align-middle"><b>CONDITIONS DE VENTE</b></a>
+          <a href="#" class="px-2 align-middle"><b>FAQ</b></a>
+          <a href="#" class="px-2 align-middle"><b>A PROPOS</b></a>
+        </div>
+        <div class="col-md-4 text-center align-middle">
+          <p>Copywrite 2022 - Erwan NGUEMA - Webforce3</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!---------- SCRIPTS ---------->
+
+  <!----- VENDOR: FONT AWESOME ----->
+  <script src="https://kit.fontawesome.com/e4895b9a2a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
