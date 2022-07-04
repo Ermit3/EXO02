@@ -10,6 +10,7 @@
 
 .slider__item-list {
   display: flex;
+  padding-left: 0%;
 }
 
 .slider__item {
@@ -25,7 +26,7 @@
   display: flex;
 }
 
-.slider__item > * {
+.slider__item>* {
   height: 100%;
 }
 
@@ -79,7 +80,7 @@
   position: absolute;
   top: 100%;
 
-  box-sizing:border-box;
+  box-sizing: border-box;
   width: 100%;
   padding: 15px;
 
@@ -89,7 +90,7 @@
   transition: all 0.3s;
 }
 
-.slider:hover > .slider__bullet-container {
+.slider:hover>.slider__bullet-container {
   top: calc(100% - 45px);
   transition: all 0.3s;
 }
